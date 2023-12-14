@@ -1,0 +1,49 @@
+.image-with-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  .image-with-text:nth-child(2n){
+   
+    direction: ltr;
+  }
+  
+  .image {
+    flex: 0 0 40%; /* Adjust the width of the image */
+    margin-right: 40px; /* Adjust spacing between image and text */
+  }
+  
+  .image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .text {
+    flex: 1;
+  }
+  
+  .text h2 {
+    font-size: 1.5rem; /* Adjust heading size */
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+  .text p {
+    font-size: 1rem; /* Adjust text size */
+    line-height: 1.5; /* Adjust line height */
+  }
+  .quote {
+direction: rtl;
+text-align: rig;
+    position: relative;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    margin: 20px;
+    padding: 20px;
+    border-left: 5px solid #f0ad4e; /* Change color as desired */
+  }
+  
+
+  

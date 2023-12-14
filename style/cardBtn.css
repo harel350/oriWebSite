@@ -1,0 +1,10 @@
+.cardBtn{
+    
+    cursor: pointer;
+    max-width: 35%;
+}
+.eventsContainer{
+    display: flex;
+    justify-content: end;
+    
+}

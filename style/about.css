@@ -1,0 +1,19 @@
+.aboutContainer {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 20px 0;
+    /* background-color: #f8f9fa; */
+  }
+
+  .section-title {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+
+  .section-content {
+    font-size: 1.2em;
+  }
